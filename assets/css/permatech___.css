@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.banner {
+	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), url('../images/main-bg.jpg');
+	font-family: 'PT Sans', sans-serif !important;
+}
+
+.trusted-section-heading span {
+	background-color: #00bcd4;
+	padding: 1px 8px;
+}
+
+span.trusted-section-heading::before {
+	content: "\a";
+}
+
+.banner .trusted-section-heading {
+	color: #fff;
+	padding: 50px;
+	font-size: 24px;
+}
+
+.about-section .section-heading {
+	padding-top: 2.5rem;
+}
+
+.about-section p{
+	text-align: center;
+}
+
+.featured-logo {
+	width: 290px;
+	margin: 0 auto;
+}
+
+.alpha-button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 30px;
+	font-size: 26px;
+	line-height: 22px;
+	border: 1px solid #474747;
+	border-radius: 26px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: #fff;
+	border-color: rgba(0, 0, 0, 0);
+	color: #474747;
+}
+
+.alpha-button:hover {
+	background-color: rgba(255, 196, 0, 1);
+	border-color: rgba(255, 196, 0, 1);
+	color: #fff;
+}
+
+a, button {
+	transition: all 0.1s ease-out;
+}
+
+.service-card {
+	height: 200px;
+	overflow: hidden;
+}
