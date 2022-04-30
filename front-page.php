@@ -78,7 +78,7 @@
     </div>
     <!-- Services Ends Here -->
 
-    <!-- Pricing Starts Here -->
+    <!-- Featured Projets Here -->
     <div class="pricing-section">
       <div class="background-image-pricing">
       </div>
@@ -86,32 +86,25 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md-12 z-index-1">
             <div class="section-heading">
-              <h2>Support us</h2>
+              <h2>Fetured Projects</h2>
               <p>You can help our mision by buying some of our merchandising to support us, or make a donation...</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="pricing-item">
-              <h4>Merchandising</h4>
-              <!-- IMG -->
+              <h4>Tetrapak Pouches</h4>
+              <!-- 
+                  TODO place reference images here
+               -->
               <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
               <div class="dev"></div>
               <a href="#" class="main-button">Shop</a>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-item">
-              <h4>Contribute</h4>
-              <!-- IMG -->
-              <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
-              <div class="dev"></div>
-              <a href="#" class="gradient-button">Donate</a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
-    <!-- Pricing Ends Here -->
+    <!-- Featured Projects Ends Here -->
 
 
     <!-- Features Starts Here -->
