@@ -1,7 +1,6 @@
 <?php
 	/**
-	 * 
-	 * 
+	 * Main Header Structure of the Page
 	 * @package Donkya Theme 
 	*/
 ?>

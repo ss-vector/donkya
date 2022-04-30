@@ -92,11 +92,12 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="pricing-item">
-              <h4>Tetrapak Pouches</h4>
+              <h4>Tetra pak Pouches</h4>
               <!-- 
                   TODO place reference images here
                -->
-              <p>Etiam sit amet placerat lacus, sed placerat mauris. Vestibulum malesuada vehicula sapien non tempus.</p>
+               <img src="<?php echo get_template_directory_uri() . '/assets/images/tp-pouch-featured.jpeg' ?>" width="100%" alt="Tetra pack recycled pouch">
+              <p>A easy-to-use pouche made of recycled Tetra Pak material. This is one of the initiatives we've woking on.</p>
               <div class="dev"></div>
               <a href="#" class="main-button">Shop</a>
             </div>

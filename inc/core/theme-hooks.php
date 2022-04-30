@@ -43,9 +43,8 @@ add_action( 'init', 'donkya_register_nav_menus' );
 
 
 function donkya_theme_sidebar_setup() {
-	/**
-	 * Creates the blog sidebar and other widgets.
-	 */
+
+	// Creates the blog sidebar and other widgets.
 	$blog_sidebar = array(
 		'name'          => __( 'Blog Sidebar', 'donkya' ),
 		'id'            => 'primary-sidebar',
