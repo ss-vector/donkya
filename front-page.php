@@ -170,9 +170,9 @@
                 <div class="icon">
                   <i class="fa fa-quote-right"></i>
                 </div>
-                <p>"Yo digo que esta bien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean quam erat, rutrum ut malesuada."</p>
+                <p>"Una iniciativa que busca educar a la personas sobre como vivir junto con la naturaleza."</p>
                 <h4>Omar Mejia</h4>
-                <span>Local Partner</span>
+                <span>Developer</span>
               </div>
               <div class="testimonial-item">
                 <div class="icon">

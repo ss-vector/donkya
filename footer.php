@@ -19,8 +19,6 @@
 		              </div>
 		              <ul class="footer-list">
 		                <li><a href="#">Workshop</a></li>
-		                <li><a href="#">About the Moulds</a></li>
-		                <li><a href="#">Sheetpress</a></li>
 		                <li><a href="#">Shredding Plastic</a></li>
 		                <li><a href="#">Designing Products</a></li>
 		              </ul>
@@ -35,8 +33,8 @@
 		              </div>
 		              <ul class="footer-list">
 		                <li><a href="#">Our Community</a></li>
-		                <li><a href="#">Partnerships</a></li>
-		                <li><a href="#">Work With Us</a></li>
+		                <!-- li><a href="#">Partnerships</a></li>
+		                <li><a href="#">Work With Us</a></li -->
 		                <li><a href="#">Documentation</a></li>
 		                <li><a href="#">Latest News</a></li>
 		              </ul>
