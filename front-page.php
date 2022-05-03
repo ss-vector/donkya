@@ -86,7 +86,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md-12 z-index-1">
             <div class="section-heading">
-              <h2>Fetured Projects</h2>
+              <h2>Featured Projects</h2>
               <p>You can help our mision by buying some of our merchandising to support us, or make a donation...</p>
             </div>
           </div>
@@ -135,7 +135,7 @@
               </div>
               <h4>Romana Rainer</h4>
               <span>Austria</span>
-              <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+              <p>Founder.</p>
             </div>
           </div>
           <div class="col-md-4">
