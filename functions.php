@@ -20,6 +20,7 @@ define( 'DONKYA_THEME_DIR', trailingslashit( get_template_directory() ) );
 
 require_once DONKYA_THEME_DIR . '/inc/template/walker.php';
 require_once DONKYA_THEME_DIR . '/inc/core/theme-hooks.php';
+require_once DONKYA_THEME_DIR . '/pot/customizer.php';
 
 function donkya_primary_theme_setup() {
 

@@ -145,6 +145,7 @@ article.featured-content {
 .blog-wrapper {
 	background-color: var(--bs-light);
 	border-radius: var(--perma-border-radius);
+	padding:  50px 0px;
 }
 
 .single-page-wrapper {
