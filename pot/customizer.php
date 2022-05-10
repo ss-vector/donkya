@@ -12,9 +12,11 @@
 			'description' => __('Home section customizer'),
 			'panel'	=> 'dk_landing_panel',
 		));
+
 		$wp_customize->add_setting('dk_landing_small_header', array(
 			'default' => __('Green Projects'),
 		));
+
 		$wp_customize->add_control('dk_landing_small_header', array(
 			'label'		=> 'Small heading',
 			'section'	=> 'dk_landing_page_home',
