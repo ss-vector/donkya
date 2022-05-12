@@ -2,8 +2,11 @@
 
 :root {
 	--perma-blog-bg: #eeeeee;
+	--perma-blog-navbar-color: #799e8d;
 	--perma-border-radius:  0.26rem;
 }
+
+/* Custom container */
 
 .main-container {
 	position: relative;
@@ -17,8 +20,15 @@
 	position: relative;
 	bottom: 20px;
 }
+/* Navbar */
 
-/** RSLIDER **/
+.blog .navbar .navbar-nav a.nav-link,
+.blog .navbar a.navbar-brand h2 {
+	color: var( --perma-blog-navbar-color );
+}
+
+
+/** rs slider **/
 
 .rslides {
   position: relative;
@@ -132,6 +142,8 @@ a, button {
 article.featured-content {
 	text-align: center;
 }
+
+
 
 /* Wrapper */
 
