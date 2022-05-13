@@ -108,7 +108,7 @@
     <!-- Featured Projects Ends Here -->
 
 
-    <!-- Features Starts Here -->
+    <!-- Features Starts Here
     <div class="features-section">
       <div class="container">
         <div class="row">
@@ -125,7 +125,7 @@
               </div>
               <h4>Omar Mejia</h4>
               <span>Perú</span>
-              <p>Project manager. Praesent lacinia tempus urna.</p>
+              <p>Manger and self taught coder. Open source activist</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -135,7 +135,7 @@
               </div>
               <h4>Romana Rainer</h4>
               <span>Austria</span>
-              <p>Founder.</p>
+              <p>Artist, Musician Founder.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -145,13 +145,13 @@
               </div>
               <h4>Carlos Sanabria</h4>
               <span>Colombia</span>
-              <p>Founder and contributor to nature preservation projects, permaculture and reforestation.</p>
+              <p>Founder, Teacher and contributor to nature preservation projects, permaculture and reforestation.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Features Ends Here -->
+    --Features Ends Here -->
 
 
     <!-- Testimonials Starts Here -->
