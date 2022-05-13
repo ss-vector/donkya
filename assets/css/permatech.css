@@ -23,9 +23,9 @@
 }
 /* Navbar */
 
-.blog .navbar .navbar-nav a.nav-link,
-.blog .navbar a.navbar-brand h2 {
-	color: var( --perma-blog-navbar-color );
+.home .navbar .navbar-nav a.nav-link,
+.home .navbar a.navbar-brand h2 {
+	color: var( --bs-white );
 }
 
 

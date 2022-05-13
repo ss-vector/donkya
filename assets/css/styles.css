@@ -247,7 +247,7 @@ header {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: #fff;
+	color: var(--perma-blog-navbar-color);
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 800;
@@ -274,7 +274,7 @@ header {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: #fff;
+	color: var(--perma-blog-navbar-color);
 	transition: all 0.5s;
 	margin-top: 5px;
 }
