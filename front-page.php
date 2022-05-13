@@ -108,7 +108,7 @@
     <!-- Featured Projects Ends Here -->
 
 
-    <!-- Features Starts Here
+    <!-- Features Starts Here-->
     <div class="features-section">
       <div class="container">
         <div class="row">
@@ -151,10 +151,10 @@
         </div>
       </div>
     </div>
-    --Features Ends Here -->
+    <!--Features Ends Here -->
 
 
-    <!-- Testimonials Starts Here -->
+    <!-- Testimonials Starts Here --
     <div class="testimonials-section">
       <div class="container">
         <div class="row">
@@ -195,6 +195,6 @@
         </div>
       </div>
     </div>
-    <!-- Testimonials Ends Here -->
+    [!]-- Testimonials Ends Here -->
 
 <?php get_footer(); ?>
