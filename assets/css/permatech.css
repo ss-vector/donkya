@@ -137,8 +137,11 @@ a, button {
 }
 
 .id-image {
-	padding: 25px;
-}
+	padding: 25px; }
+	.id-image img {
+		height: 20em;
+	}
+
 
 article.featured-content {
 	text-align: center;

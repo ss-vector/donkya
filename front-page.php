@@ -121,7 +121,7 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
-                <img src="assets/images/omar3.jpg" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+                <img src="<?php echo wp_get_attachment_url( 37 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Omar Mejia</h4>
               <span>Perú</span>
@@ -131,7 +131,7 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
-                <img src="assets/images/romana.jpg" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+                <img src="<?php echo wp_get_attachment_url( 38 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Romana Rainer</h4>
               <span>Austria</span>
@@ -141,11 +141,11 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
-                <img src="assets/images/carlos.jpg" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+                <img src="<?php echo wp_get_attachment_url( 36 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Carlos Sanabria</h4>
               <span>Colombia</span>
-              <p>Founder, Teacher and contributor to nature preservation projects, permaculture and reforestation.</p>
+              <p>Founder, Permaculture Teacher and contributor to nature preservation projects, permaculture and reforestation.</p>
             </div>
           </div>
         </div>
