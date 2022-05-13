@@ -150,13 +150,11 @@ article.featured-content {
 
 
 .page-wrapper {
-	padding: 70px;
 	background-color: var(--perma-blog-bg);
-
+	padding-top: 70px;
 }
 
 .blog-wrapper {
-	background-color: var(--bs-light);
 	border-radius: var(--perma-border-radius);
 	padding:  50px 0px;
 }
@@ -165,9 +163,19 @@ article.featured-content {
 	padding-top: 50px;
 }
 
+/* Content */
 
 .background-image-pricing {
 	background-image: url(../images/wm-004.jpeg);
+}
+
+.perma-post-list {
+	width: 100%;
+	margin: 0 0 30px;
+	background-color: var(--bs-light);
+	padding: 40px 32px;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+	transition: .3s ease;
 }
 
 .pricing-section .z-index-1 {

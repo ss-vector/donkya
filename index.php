@@ -6,11 +6,11 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="blog-wrapper col-9">
+					<div class="blog-wrapper col-xl-9 col-md-12">
 						<?php 
 							if( have_posts() ):
 								while( have_posts() ): the_post(); ?>
-									<div class="copycats_news_list blog-item">
+									<div class="perma-post-list blog-item">
 										<div class="post-header">
 											<div class="posted-on">
 												<?php printf(esc_html__('Publicado el %s', 'copycats'), "<strong>" . get_the_date() . "</strong>"); ?>
@@ -37,10 +37,17 @@
 							endif;
 						?>
 					</div>
+						<?php if( !wp_is_mobile() ) :
+						?>
+							<div class="col-xl-3 col-md-12">
+								<?php get_sidebar(); ?>
+							</div>
+						<?php
+						else: 
+							echo '<h2>Mobile Menu</h2>';
+						endif;
+						?>
 
-					<div class="col-xl-3">
-						<?php get_sidebar(); ?>
-					</div>
 				</div>
 			</div>
 
