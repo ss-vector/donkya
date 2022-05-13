@@ -125,7 +125,7 @@
               </div>
               <h4>Omar Mejia</h4>
               <span>Perú</span>
-              <p>Manger and self taught coder. Open source activist</p>
+              <p>Founder, Entrepreneur. Manager and self taught coder. Open source activist.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -135,7 +135,7 @@
               </div>
               <h4>Romana Rainer</h4>
               <span>Austria</span>
-              <p>Artist, Musician Founder.</p>
+              <p>Founder, artist. Political scientist.</p>
             </div>
           </div>
           <div class="col-md-4">

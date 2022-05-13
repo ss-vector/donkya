@@ -8,7 +8,7 @@
 		              <div class="footer-heading">
 		                <h2>About Us</h2>
 		              </div>
-		              <p>Donkya Foundation is an ... organization that aims to build a new way of living sustainable.</p>
+		              <p>Donkya Foundation is an organization of entrepreneurs that aims to build a new way of living sustainable, part of the green movements placed on earth.</p>
 		            </div>
 		          </div>
 		          
@@ -48,7 +48,7 @@
 		              </div>
 		              <ul class="footer-list">
 		                <li>Phone: <a href="#">010-020-0560</a></li>
-		                <li>Support: <a href="#">support@donkya.com</a></li>
+		                <li>Contact: <a href="#">mail@donkya.com</a></li>
 		              </ul>
 		            </div>
 		          </div>
