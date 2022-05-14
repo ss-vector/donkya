@@ -2,9 +2,9 @@
 
 <div class="page-wrapper">
 	<div id="primary" class="container">
-		<main id="page" class="site-main mt-5">
+		<main id="page" class="site-main row mt-5">
 
-			<div class="content-wrapper">
+			<div class="col-xl-12 content-wrapper">
 
 				<?php
 					if(have_posts()) {
@@ -13,11 +13,12 @@
 				<div class="page-title">
 					<h3><?php the_title(); ?></h3>
 				</div>
-				<div class="page-body">
-					<p><?php the_content(); ?></p>
-
-					<?php endwhile;	}
-					?>
+				<div class="container-md">
+					<div class="page-body">
+						<?php the_content(); ?>
+						<?php endwhile;	}
+						?>
+					</div>
 				</div>
 			</div>
 		</main>

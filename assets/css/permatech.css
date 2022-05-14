@@ -150,7 +150,12 @@ article.featured-content {
 
 
 /* Wrapper */
-
+.content-wrapper {
+	background-color: var(--bs-light);
+	border-radius: var(--perma-border-radius);
+	padding-top: 50px;
+	margin-bottom: 25px;
+}
 
 .page-wrapper {
 	background-color: var(--perma-blog-bg);
