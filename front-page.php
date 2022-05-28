@@ -121,6 +121,7 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
+                <!-- id: 303 -->
                 <img src="<?php echo wp_get_attachment_url( 37 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Omar Mejia</h4>
@@ -131,6 +132,7 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
+                <!-- id: 302 -->
                 <img src="<?php echo wp_get_attachment_url( 38 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Romana Rainer</h4>
@@ -145,7 +147,7 @@
               </div>
               <h4>Carlos Sanabria</h4>
               <span>Colombia</span>
-              <p>Founder, Permaculture Teacher and contributor to nature preservation projects, permaculture and reforestation.</p>
+              <p>Founder, Permaculture Teacher and strong contributor to reforestation and nature preservation projects.</p>
             </div>
           </div>
         </div>
