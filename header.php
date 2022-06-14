@@ -37,22 +37,38 @@
 		      <nav class="navbar navbar-expand-lg">
 		        <div class="container">
 		          <a class="navbar-brand" href="<?php echo esc_html( site_url( '/' ) ); ?>"><h2><?php echo get_bloginfo('name'); ?></h2></a>
-		          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-		            <span class="navbar-toggler-icon"></span>
-		          </button>
-		          <div class="collapse navbar-collapse" id="navbarResponsive">
-		          	<?php 
-		          		wp_nav_menu( array(
-		          			'theme_location'  	=> 'primary-home-menu',
-		          			'container' 		=> false,
-		          			'depth'           	=> 3,
-		          			'menu_class'      => 'nav navbar-nav ml-auto',
-		          			'walker'          	=> New header_menu_walker(),
-		          		) );
-		          	?>
+			          	<div class="permatech__mobile wp_is_mobile">
+				          	<div class="permatech__mobile_toggler" data-toggle-selector=".permatech__mobile_content, .permatech__mobile_overlay, body">
+				          		<span></span>
+				          		<span></span>
+				          		<span></span>
+				          	</div>
 
-		          </div>
+				          	<!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				            	<span class="navbar-toggler-icon"></span>
+				          	</button-->
+				          	<div class="permatech__mobile_overlay" data-toggle-selector=".permatech__mobile_toggler, .permatech__mobile_content, body"></div>
+				          	<div class="permatech__mobile_content">
+				          		<div class="permatech__mobile_content__inner">
+				          			<h5>Contenidos</h5>
+				          			<? #php get_template_part(); ?>
+				          		</div>
+				          	</div>
+			          	</div>
 
+				        <div class="header_main_menu wp_is_not_mobile">
+				          	<div class="collapse navbar-collapse" id="navbarResponsive">
+				          	<?php 
+				          		wp_nav_menu( array(
+				          			'theme_location'  	=> 'primary-home-menu',
+				          			'container' 		=> false,
+				          			'depth'           	=> 3,
+				          			'menu_class'      => 'nav navbar-nav ml-auto',
+				          			'walker'          	=> New header_menu_walker(),
+				          		) );
+				          	?>
+					    	</div>
+				      	</div>
 		        </div>
 		      </nav>
 			</header>
