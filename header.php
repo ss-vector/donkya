@@ -51,7 +51,7 @@
 				          	<div class="permatech__mobile_content">
 				          		<div class="permatech__mobile_content__inner">
 				          			<h5>Contenidos</h5>
-				          			<? #php get_template_part(); ?>
+				          			<?php get_template_part( 'partials/mobile/mobile_navbar' ); ?>
 				          		</div>
 				          	</div>
 			          	</div>

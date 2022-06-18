@@ -108,7 +108,7 @@
     <!-- Featured Projects Ends Here -->
 
 
-    <!-- Features Starts Here-->
+    <!-- Team Features Starts Here-->
     <div class="features-section">
       <div class="container">
         <div class="row">
@@ -122,7 +122,7 @@
             <div class="feature-item">
               <div class="id-image">
                 <!-- id: 303 -->
-                <img src="<?php echo wp_get_attachment_url( 37 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+                <img src="<?php echo wp_get_attachment_url( 317 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Omar Mejia</h4>
               <span>Perú</span>
@@ -133,7 +133,7 @@
             <div class="feature-item">
               <div class="id-image">
                 <!-- id: 302 -->
-                <img src="<?php echo wp_get_attachment_url( 38 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+                <img src="<?php echo wp_get_attachment_url( 302 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Romana Rainer</h4>
               <span>Austria</span>
@@ -143,7 +143,8 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
-                <img src="<?php echo wp_get_attachment_url( 36 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+          <!-- id: 311 -->
+                <img src="<?php echo wp_get_attachment_url( 311 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Carlos Sanabria</h4>
               <span>Colombia</span>
@@ -153,7 +154,7 @@
         </div>
       </div>
     </div>
-    <!--Features Ends Here -->
+    <!--Team Features Ends Here -->
 
 
     <!-- Testimonials Starts Here --
