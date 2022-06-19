@@ -5,6 +5,11 @@
 	--perma-blog-navbar-color: #17B997;
 	/*#799e8d;*/
 	--perma-border-radius:  0.26rem;
+
+
+	--slider-img-001:  url('https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1655601772/donkya/main-bg_jvcrjv.jpg');
+	--slider-img-002:  url('https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1655601772/donkya/wm-002.jpg');
+	--slider-img-003:  url('https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1655601772/donkya/wm-003_zxkmjh.jpg');
 }
 
 /* Custom container */
@@ -68,17 +73,17 @@
   }
 
 .banner-1 {
-	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), url('../images/wm-002.jpeg');
+	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), var(--slider-img-002);
 	font-family: 'PT Sans', sans-serif !important;
 }
 
 .banner-2 {
-	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), url('../images/main-bg.jpg');
+	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), var(--slider-img-001);
 	font-family: 'PT Sans', sans-serif !important;
 }
 
 .banner-3 {
-	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), url('../images/wm-003.jpeg');
+	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), var(--slider-img-003);
 	font-family: 'PT Sans', sans-serif !important;
 }
 

@@ -43,10 +43,6 @@
 				          		<span></span>
 				          		<span></span>
 				          	</div>
-
-				          	<!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				            	<span class="navbar-toggler-icon"></span>
-				          	</button-->
 				          	<div class="permatech__mobile_overlay" data-toggle-selector=".permatech__mobile_toggler, .permatech__mobile_content, body"></div>
 				          	<div class="permatech__mobile_content">
 				          		<div class="permatech__mobile_content__inner">
