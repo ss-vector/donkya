@@ -201,7 +201,13 @@ article.featured-content {
   height: 100%;
 }
 
-@media ( max-width: 1025px ) {
+@media ( min-width: 769px ) {
+	.permatech__mobile {
+		display: none;
+	}
+}
+
+@media ( max-width: 481px ) {
 	.permatech__mobile {
 		display: block;
 		position: absolute;

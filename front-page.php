@@ -121,17 +121,6 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
-                <!-- id: 303 -->
-                <img src="<?php echo wp_get_attachment_url( 317 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
-              </div>
-              <h4>Omar Mejia</h4>
-              <span>Perú</span>
-              <p>Founder, Entrepreneur. Manager and self taught coder. Open source activist.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="feature-item">
-              <div class="id-image">
                 <!-- id: 302 -->
                 <img src="<?php echo wp_get_attachment_url( 302 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
@@ -143,7 +132,18 @@
           <div class="col-md-4">
             <div class="feature-item">
               <div class="id-image">
-          <!-- id: 311 -->
+                <!-- id: 303 -->
+                <img src="<?php echo wp_get_attachment_url( 317 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+              </div>
+              <h4>Omar Mejia</h4>
+              <span>Perú</span>
+              <p>Founder, Entrepreneur. Manager and self taught coder. Open source activist.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-item">
+              <div class="id-image">
+                <!-- id: 311 -->
                 <img src="<?php echo wp_get_attachment_url( 311 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Carlos Sanabria</h4>
