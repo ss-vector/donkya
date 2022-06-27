@@ -1,5 +1,10 @@
 /**
- 	* @chiken	    
+ 	* Permatech Template by ss-vector
+
+	   Created with help of the following libraries:
+
+	   -Responsive Slides
+	   -Swiperjs
  		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 	    <!-- Bootstrap core CSS -->
 
@@ -15,5 +20,3 @@
 	          }
 	      }
 	    </script>
-
-	    post=11
