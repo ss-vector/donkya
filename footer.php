@@ -18,9 +18,9 @@
 		                <h2>About the Machines</h2>
 		              </div>
 		              <ul class="footer-list">
-		                <li><a href="#">Workshop</a></li>
-		                <li><a href="#">Shredding Plastic</a></li>
-		                <li><a href="#">Designing Products</a></li>
+		                <li><a href="#">Our Workshop</a></li>
+		                <li><a href="#">Recycling Plastic</a></li>
+		                <li><a href="#">Permaculture</a></li>
 		              </ul>
 		            </div>
 		          </div>

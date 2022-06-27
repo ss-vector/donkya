@@ -27,7 +27,7 @@
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/0_logo.jpg'; ?>" class="img-fluid">
               </div>
               <p>We are an organization focused on helping communities integate a sustainable way of living, changin habits and reducing waste.<br>Through education and research promoting a new ways of living.</p>
-              <a class="alpha-button mt-5" href="https://donkya.com/?page_id=287">Read More</a>
+              <a class="alpha-button mt-5" href="<?php echo get_permalink( $post = 119, $leavename = false ); ?>">Read More</a>
             </article>
         </div>
         </div>
