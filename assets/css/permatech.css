@@ -155,7 +155,7 @@ article.featured-content {
 	text-align: center;
 }
 
-/* Wrapper */
+/* Wrappers */
 .content-wrapper {
 	background-color: var(--bs-light);
 	border-radius: var(--perma-border-radius);
@@ -175,6 +175,10 @@ article.featured-content {
 
 .single-page-wrapper {
 	padding-top: 50px;
+}
+
+.section-wrapper {
+	padding: 25px;
 }
 
 /* Content */
