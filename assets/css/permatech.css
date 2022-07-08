@@ -125,7 +125,7 @@ span.trusted-section-heading::before {
 	border-radius: 26px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	background-color: #fff;
+	background-color: var(--perma-blog-navbar-color);
 	border-color: rgba(0, 0, 0, 0);
 	color: #474747;
 }
@@ -175,10 +175,6 @@ article.featured-content {
 
 .single-page-wrapper {
 	padding-top: 50px;
-}
-
-.section-wrapper {
-	padding: 25px;
 }
 
 /* Content */
