@@ -127,7 +127,7 @@ span.trusted-section-heading::before {
 	letter-spacing: 2px;
 	background-color: var(--perma-blog-navbar-color);
 	border-color: rgba(0, 0, 0, 0);
-	color: #474747;
+	color: #fff;
 }
 
 .alpha-button:hover {
