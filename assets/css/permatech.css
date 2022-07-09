@@ -173,6 +173,13 @@ article.featured-content {
 	padding:  50px 0px;
 }
 
+.section-wrapper {
+
+} .section-wrapper.main {
+	margin-top: 25px;
+	background-image: url('http://donkya.com/wp-content/uploads/2022/04/pp_waste.jpg');
+}
+
 .single-page-wrapper {
 	padding-top: 50px;
 }
