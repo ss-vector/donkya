@@ -163,6 +163,10 @@ article.featured-content {
 	margin-bottom: 25px;
 }
 
+#page {
+	padding-bottom: 1rem;
+}
+
 .page-wrapper {
 	background-color: var(--perma-blog-bg);
 	padding-top: 70px;
