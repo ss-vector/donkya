@@ -35,6 +35,49 @@
     </div>
 	<!-- About Section Ends Here -->
 
+  <!-- The Impact -->
+  <div class="report-section">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <span>The Impact</span>
+            <h2>Key points of our initiative</h2>
+          </div>
+        </div>
+        <div class="col-md-10 offset-md-1">
+          <div class="owl-testimonials owl-carousel">
+            <div class="testimonial-item">
+              <div class="icon">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <h4>Sustainable chain of production and consumerism</h4>
+              <p class="text-center fs-6">DONKYA's products and production methods are based on reducing the destructive cycle that is generated in the current plastic production system, providing an alternative by transforming plastic waste into new products.</p>
+              
+            </div>
+            <div class="testimonial-item">
+              <div class="icon">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <h4>Climate Action</h4>
+              <p class="text-center fs-6">Our products are made from recovered plastic, giving a more environmentally friendly option, taking into account that a percentage of the profits will be used to revive and maintain ecosystems that reduce CO2 emissions.</p>
+              
+            </div>
+            <div class="testimonial-item">
+              <div class="icon">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <h4>Care for Terrestrial Ecosystems</h4>
+              <p class="text-center fs-6">A percentage of the profits from our products will be used to contribute to and conserve important biodiversity ecosystems.  </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /The Impact -->
+
 	<!-- Services Starts Here -->
     <div class="services-section">
       <div class="container">
@@ -99,7 +142,7 @@
                <img src="<?php echo get_template_directory_uri() . '/assets/images/tp-pouch-featured.jpeg' ?>" width="100%" alt="Tetra pack recycled pouch">
               <p>A easy-to-use pouche made of recycled Tetra Pak material. This is one of the initiatives we've woking on.</p>
               <div class="dev"></div>
-              <a href="#" class="main-button">Shop</a>
+              <a href="#" class="main-button">Soon</a>
             </div>
           </div>
         </div>
@@ -155,49 +198,5 @@
       </div>
     </div>
     <!--Team Features Ends Here -->
-
-
-    <!-- Testimonials Starts Here --
-    <div class="testimonials-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <span>Testimonials</span>
-              <h2>What they say about us</h2>
-            </div>
-          </div>
-          <div class="col-md-10 offset-md-1">
-            <div class="owl-testimonials owl-carousel">
-              <div class="testimonial-item">
-                <div class="icon">
-                  <i class="fa fa-quote-right"></i>
-                </div>
-                <p>"Una iniciativa que busca educar a la personas sobre como vivir junto con la naturaleza."</p>
-                <h4>Omar Mejia</h4>
-                <span>Developer</span>
-              </div>
-              <div class="testimonial-item">
-                <div class="icon">
-                  <i class="fa fa-quote-right"></i>
-                </div>
-                <p>"Quisque lacinia sed velit et maximus. Quisque dictum, lacus a malesuada finibus, arcu magna luctus risus, eu accumsan risus elit vitae lacus."</p>
-                <h4>Vinny Smart</h4>
-                <span>Digital Marketer</span>
-              </div>
-              <div class="testimonial-item">
-                <div class="icon">
-                  <i class="fa fa-quote-right"></i>
-                </div>
-                <p>"Vestibulum mauris ipsum, tempor tincidunt justo sit amet, bibendum tincidunt dui. Aenean molestie, odio quis viverra ultricies, leo tellus lacinia neque, sit amet maximus tortor nunc aliquet felis."</p>
-                <h4>Trevor Liam</h4>
-                <span>Technology Chef</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    [!]-- Testimonials Ends Here -->
 
 <?php get_footer(); ?>

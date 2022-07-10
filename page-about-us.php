@@ -26,7 +26,7 @@
 					<div class="col-md-6">
 						<div class="h-100 p-5 text-white bg-dark rounded-3">
 							<h2>Mission</h2>
-							<p class="fs-6">Here at <strong>DONKYA Plastic</strong> strive to protect nature in combination with a sustainable economy. By managing recycled plastics and transforming them into a handmade and innovative product. Our goals are based on solidarity and care for the planet in the face of the growing problem caused by the pollution of different types of plastic.</p>
+							<p class="fs-6">Here at <strong>DONKYA Plastics</strong> strive to protect nature in combination with a sustainable economy. By managing recycled plastics and transforming them into a handmade and innovative product. Our goals are based on solidarity and care for the planet in the face of the growing problem caused by the pollution of different types of plastic.</p>
 						</div>
 					</div>
 					<div class="about-vision-box col-md-6">

@@ -15,7 +15,7 @@
 		          <div class="col-md-3 col-sm-6 col-xs-12">
 		            <div class="footer-item">
 		              <div class="footer-heading">
-		                <h2>About the Machines</h2>
+		                <h2>Useful Links</h2>
 		              </div>
 		              <ul class="footer-list">
 		                <li><a href="#">Our Workshop</a></li>
@@ -29,7 +29,7 @@
 		          <div class="col-md-3 col-sm-6 col-xs-12">
 		            <div class="footer-item">
 		              <div class="footer-heading">
-		                <h2>Useful Links</h2>
+		                <h2>More Information</h2>
 		              </div>
 		              <ul class="footer-list">
 		                <li><a href="#">Our Community</a></li>
