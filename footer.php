@@ -8,7 +8,7 @@
 		              <div class="footer-heading">
 		                <h2>About Us</h2>
 		              </div>
-		              <p>Donkya Foundation is an organization of entrepreneurs that aims to build a new way of living sustainable, part of the green movements placed on earth.</p>
+		              <p class="fs-6">Donkya Foundation is an organization of entrepreneurs that aims to build a new way of living sustainable, part of the green movements placed on earth.</p>
 		            </div>
 		          </div>
 		          
