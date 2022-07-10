@@ -52,7 +52,7 @@
             </div>
             <div class="service-item">
               <h4>Education & Research</h4>
-              <p>Education is a key foundation in society development, </p>
+              <p class="fs-6">Education is a key foundation in society development but there are some places on earth that require assitance in order to reach access to new tech and platforms that will empower them.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -61,7 +61,7 @@
             </div>
             <div class="service-item">
               <h4>Plastic Recycling</h4>
-              <p>Through DONKYA <em>PLASTIC</em> we are implementing plastic recycling processes that will let us produce new products, from waste plastic.</p>
+              <p class="fs-6">Through DONKYA <em>PLASTIC</em> we are implementing plastic recycling processes that will let us produce new products, from waste plastic.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -70,7 +70,7 @@
             </div>
             <div class="service-item">
               <h4>Permaculture</h4>
-              <p>Our mision is to encourage local communities to live in armony with nature, not harming local species...</p>
+              <p class="fs-6">Our mision is to encourage local communities to live in armony with nature, not harming local species...</p>
             </div>
           </div>
         </div>

@@ -347,11 +347,14 @@ article.featured-content {
 					margin: -7px 0 0 -4px;
 					border-bottom: 1px solid rgba(34, 40, 50, 1);
 					border-left: 1px solid rgba(34, 40, 50, 1);
-					transform: rotate(-45deg);
-				}
+					transform: rotate(-45deg); }
+	/* Special Sections */
+	.about-vision-box {
+		margin-top: 1rem;
+	}
 
-	.wp_is_not_mobile {
-		display: none; }
+	/*.wp_is_not_mobile {
+		display: none; }*/
 }
 
 @media ( min-width: 1200px ) {
@@ -394,5 +397,9 @@ article.featured-content {
 		padding: 2.5rem; }
 		.post-content img {
 			height: auto; }
+	
+	/* Special Sections */
+	.section-wrapper .about-vision-box {
+		margin-top: 1rem; }
 
 }
