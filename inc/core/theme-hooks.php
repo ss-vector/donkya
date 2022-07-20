@@ -31,10 +31,10 @@ function donkya_register_nav_menus() {
 	add_theme_support( 'menus' );
 
 	$locations = array(
-		// main-front-header
-		'primary-home-menu' => "Front site main header menu",
-		// seccondary-footer-menu
-		'footer' => "Footer menu"
+
+		'primary-home-menu' => "Front site main header menu",		
+		'footer' => "Footer menu",
+		'featured-mobile-menu' => "Mobile navbar menu"
 	);
 
 	register_nav_menus( $locations );

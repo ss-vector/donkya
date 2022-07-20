@@ -46,7 +46,6 @@
 				          	<div class="permatech__mobile_overlay" data-toggle-selector=".permatech__mobile_toggler, .permatech__mobile_content, body"></div>
 				          	<div class="permatech__mobile_content">
 				          		<div class="permatech__mobile_content__inner">
-				          			<h5>Contenidos</h5>
 				          			<?php get_template_part( 'partials/mobile/mobile_navbar' ); ?>
 				          		</div>
 				          	</div>

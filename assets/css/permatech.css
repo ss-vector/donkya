@@ -73,6 +73,13 @@
   border: 0;
   }
 
+  .banner {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+  }
+
 .banner-1 {
 	background-image: linear-gradient(to bottom, rgba(59, 117, 191, 0.5), rgba(138, 81, 53, 0.05)), var(--slider-img-002);
 	font-family: 'PT Sans', sans-serif !important;
@@ -105,10 +112,6 @@ span.trusted-section-heading::before {
 
 .about-section .section-heading {
 	padding-top: 2.5rem;
-}
-
-.about-section p{
-	text-align: center;
 }
 
 .featured-logo {
@@ -164,10 +167,6 @@ article.featured-content {
 	margin-bottom: 25px;
 }
 
-#page {
-	padding-bottom: 1rem;
-}
-
 .page-wrapper {
 	background-color: var(--perma-blog-bg);
 	padding-top: 70px;
@@ -182,7 +181,7 @@ article.featured-content {
 
 } .section-wrapper.main {
 	margin-top: -70px;
-	background-image: url('https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1655601772/donkya/pp_waste_rqo0ie.jpg');
+	background: linear-gradient(to bottom, rgba(23, 185, 151, 0.52), rgba(50, 116, 102, 0.73)), url("https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1655601772/donkya/pp_waste_rqo0ie.jpg"), no-repeat left top;
 	background-size: cover;
 	height: 700px;
 }
@@ -224,7 +223,7 @@ article.featured-content {
 		display: none;
 	}
 }
-
+/* Mobile CSS */
 @media ( max-width: 481px ) {
 	.permatech__mobile {
 		display: block;
@@ -362,6 +361,12 @@ article.featured-content {
 
 	/*.wp_is_not_mobile {
 		display: none; }*/
+
+	.section-wrapper.main {
+		display: flex;
+		align-items: center;
+		align-content: center;
+		height: 80vh;
 }
 
 @media ( min-width: 1200px ) {

@@ -14,7 +14,7 @@
                 <div class="header-text caption">
                   <h2>Change is on Us</h2>
                   <div class="trusted-section-heading">
-                    <h3>Our purpose is to act now, this is the time to be sustainable and to be responsible with our resources. <span>We are starting soon in Peru!</span></h3>
+                    <h3>Our purpose is to take action, this is the time to be sustainable and to be responsible with our resources. <span>We are starting soon in Peru!</span></h3>
                   </div>
                   <a class="alpha-button" href="#">Donate</a>
                 </div>

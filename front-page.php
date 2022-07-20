@@ -14,22 +14,22 @@
     <!-- Banner Ends Here -->
 
     <!-- About Section Starts -->
-    <div class="about-section">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="section-heading">
-              <span>Who we are?</span>
-              <h2>DONKYA PLASTICS</h2>
-            </div>
-            <article class="featured-content">
-              <div class="featured-logo">
-                <img src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/c_crop,h_1345/v1656528494/donkya/donkya_plastics_g0acdx.png" class="img-fluid">
+            <div class="about-section">
+              <div class="section-heading">
+                <span>Who we are?</span>
+                <h2>DONKYA PLASTICS</h2>
               </div>
-              <p class="fs-6 lh-sm">We are an organization focused on helping communities integate a sustainable way of living, changing habits and reducing waste.<br>Through education and research promoting a new ways of living.</p>
-              <a class="alpha-button mt-5" href="<?php echo get_permalink( get_page_by_path( 'about-us' ) ); ?>">Read More</a>
-            </article>
-        </div>
+              <article class="featured-content">
+                <div class="featured-logo">
+                  <img src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/c_crop,h_1345/v1656528494/donkya/donkya_plastics_g0acdx.png" class="img-fluid">
+                </div>
+                <p class="fs-6 lh-sm">We are an organization focused on helping communities integate a sustainable way of living, changing habits and reducing waste.<br>Through education and research promoting a new ways of living.</p>
+                <a class="alpha-button mt-5" href="<?php echo get_permalink( get_page_by_path( 'about-us' ) ); ?>">Read More</a>
+              </article>
+            </div>
         </div>
       </div>
     </div>
@@ -41,8 +41,8 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <span>The Impact</span>
-            <h2>Key points of our initiative</h2>
+            <span>Project</span>
+            <h2>Our Impact</h2>
           </div>
         </div>
         <div class="col-md-10 offset-md-1">
@@ -142,7 +142,7 @@
                <img src="<?php echo get_template_directory_uri() . '/assets/images/tp-pouch-featured.jpeg' ?>" width="100%" alt="Tetra pack recycled pouch">
               <p>A easy-to-use pouche made of recycled Tetra Pak material. This is one of the initiatives we've woking on.</p>
               <div class="dev"></div>
-              <a href="#" class="main-button">Soon</a>
+              <a href="<?php echo get_permalink( 70 ); ?>" class="main-button">Collaborate</a>
             </div>
           </div>
         </div>

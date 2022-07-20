@@ -37,17 +37,6 @@
 							endif;
 						?>
 					</div>
-						<?php if( !wp_is_mobile() ) :
-						?>
-							<div class="col-xl-3 col-md-12">
-								<?php get_sidebar(); ?>
-							</div>
-						<?php
-						else: 
-							echo '<h2>Mobile Menu</h2>';
-						endif;
-						?>
-
 				</div>
 			</div>
 

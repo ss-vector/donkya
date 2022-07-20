@@ -6,12 +6,10 @@
 			<div class="section-wrapper row main">
 				<div class="col-xl-12 mt-5">
 					<div class="mt-5">
-						<h2 class="display-4 fw-bold text-center">About Donkya Plastics</h2>
-						<div class="container py-5">
-							<!--h1 class="display-6 fw-bold">Donkya Plastics</h1-->
-							<blockquote class="blockquote">We work as a family providing ideas for better living that go beyond our ideologies.</blockquote>
-							<p class="col-md-8 text-dark fs-4"><strong>DONKYA</strong> was born out of an interest in restoring and preserving our natural environments.</p>
-							<p class="col-md-8 text-dark fs-4">With recycled material we could do lots of stuff, we need to share the value left in the trash.</p>
+						<h2 class="display-4 fw-bold text-center text-white">About Donkya Plastics</h2>
+						<div class="container text-center py-5">
+							<blockquote class="blockquote text-white">We work as a family providing ideas for better living that go beyond our ideologies.</blockquote>
+							<p class="col text-white fs-4"><strong>DONKYA</strong> was born out of an interest in restoring and preserving our natural environments.With recovered materials we can get from normal trash could do lots of stuff and create something useful, we need to share the value left in the trash.</p>
 						</div>
 					</div>
 				</div>
