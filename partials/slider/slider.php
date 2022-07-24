@@ -14,7 +14,7 @@
                 <div class="header-text caption">
                   <h2>Change is on Us</h2>
                   <div class="trusted-section-heading">
-                    <h3>Our purpose is to take action, this is the time to be sustainable and to be responsible with our resources. <span>We are starting soon in Peru!</span></h3>
+                    <h3>Our purpose is to take action, now is the time to be sustainable and to be responsible with our enviroment. <span>We are starting in Peru!</span></h3>
                   </div>
                   <a class="alpha-button" href="#">Donate</a>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="header-text caption">
                   <h2>New Way of Living</h2>
                   <div class="trusted-section-heading">
-                    <h3> Know more here! <span>We are starting soon in Peru!</span></h3>
+                    <h3> Our community! <span>We are starting in Peru!</span></h3>
                   </div>
                   <a class="alpha-button" href="#">Donate</a>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="header-text caption">
                   <h2>Recover Natural Spaces</h2>
                   <div class="trusted-section-heading">
-                    <h3> Clean and recover trash  <span>Rio Moche, Trujillo!</span></h3>
+                    <h3> Clean and recover trash from natural spaces. <span>Rio Moche, Trujillo!</span></h3>
                   </div>
                   <a class="alpha-button" href="#">Donate</a>
                 </div>
