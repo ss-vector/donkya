@@ -45,34 +45,35 @@
             <h2>Our Impact</h2>
           </div>
         </div>
-        <div class="col-md-10 offset-md-1">
-          <div class="owl-testimonials owl-carousel">
-            <div class="testimonial-item">
-              <div class="icon">
-                <i class="fa fa-quote-right"></i>
+
+        <div id="un-objetives" class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="un-objective-12">
+                <embed src="<?php echo get_template_directory_uri() . '\assets\svg\12.svg'; ?>" width="100%" />
+                <div class="descriptive-item ">
+                  <p class="text-left text-light fs-6"><strong>DONKYA's</strong> products and production methods are based on reducing the destructive cycle that is generated in the current plastic production system, providing an alternative by transforming plastic waste into new products.</p>
+                </div>
               </div>
-              <h4>Sustainable chain of production and consumerism</h4>
-              <p class="text-center fs-6">DONKYA's products and production methods are based on reducing the destructive cycle that is generated in the current plastic production system, providing an alternative by transforming plastic waste into new products.</p>
-              
             </div>
-            <div class="testimonial-item">
-              <div class="icon">
-                <i class="fa fa-quote-right"></i>
+            <div class="col-md-4">
+              <div class="un-objective-13">
+                <embed src="<?php echo get_template_directory_uri() . '\assets\svg\13.svg'; ?>" width="100%" />
+                <div class="descriptive-item">
+                  <p class="text-left text-light fs-6">Our products are made from recovered plastic, giving a more environmentally friendly option, taking into account that a percentage of the profits will be used to revive and maintain ecosystems that reduce CO2 emissions.</p>
+                </div>
               </div>
-              <h4>Climate Action</h4>
-              <p class="text-center fs-6">Our products are made from recovered plastic, giving a more environmentally friendly option, taking into account that a percentage of the profits will be used to revive and maintain ecosystems that reduce CO2 emissions.</p>
-              
             </div>
-            <div class="testimonial-item">
-              <div class="icon">
-                <i class="fa fa-quote-right"></i>
+            <div class="col-md-4">
+              <div class="un-objective-15">
+                <embed src="<?php echo get_template_directory_uri() . '\assets\svg\15.svg'; ?>" width="100%" />
+                <div class="descriptive-item">
+                  <p class="text-left text-light fs-6">A percentage of the profits from our products will be used to contribute to and conserve important biodiversity ecosystems.</p>
+                </div>
               </div>
-              <h4>Care for Terrestrial Ecosystems</h4>
-              <p class="text-center fs-6">A percentage of the profits from our products will be used to contribute to and conserve important biodiversity ecosystems.  </p>
-              
             </div>
           </div>
-        </div>
+
       </div>
     </div>
   </div>
@@ -136,9 +137,6 @@
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="pricing-item">
               <h4>Tetra pak Pouches</h4>
-              <!-- 
-                  TODO place reference images here
-               -->
                <img src="<?php echo get_template_directory_uri() . '/assets/images/tp-pouch-featured.jpeg' ?>" width="100%" alt="Tetra pack recycled pouch">
               <p>A easy-to-use pouche made of recycled Tetra Pak material. This is one of the initiatives we've woking on.</p>
               <div class="dev"></div>
