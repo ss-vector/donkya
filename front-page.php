@@ -48,7 +48,7 @@
 
         <div id="un-objetives" class="container">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-1">
               <div class="un-objective-12">
                 <embed src="<?php echo get_template_directory_uri() . '\assets\svg\12.svg'; ?>" width="100%" />
                 <div class="descriptive-item ">
@@ -56,7 +56,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pb-1">
               <div class="un-objective-13">
                 <embed src="<?php echo get_template_directory_uri() . '\assets\svg\13.svg'; ?>" width="100%" />
                 <div class="descriptive-item">

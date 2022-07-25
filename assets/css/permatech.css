@@ -387,7 +387,8 @@ article.featured-content {
 		display: flex;
 		align-items: center;
 		align-content: center;
-		height: 80vh;
+		height: 80vh; }
+
 }
 
 @media ( min-width: 1200px ) {
@@ -434,5 +435,4 @@ article.featured-content {
 	/* Special Sections */
 	.section-wrapper .about-vision-box {
 		margin-top: 1rem; }
-
 }
