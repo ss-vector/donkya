@@ -43,6 +43,7 @@
           <div class="section-heading">
             <span>Project</span>
             <h2>Our Impact</h2>
+            <p class="fs-5">With our activities we contribute to the United Nations Sustainable Development Goals</p>
           </div>
         </div>
 
