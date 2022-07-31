@@ -8,8 +8,8 @@
 					<div class="mt-5">
 						<h2 class="display-4 fw-bold text-center text-white">About Donkya Plastics</h2>
 						<div class="container text-center py-5">
-							<blockquote class="blockquote text-white">We work as a family providing ideas for better living that go beyond our ideologies.</blockquote>
-							<p class="col text-white fs-4"><strong>DONKYA</strong> was born out of an interest in restoring and preserving our natural environments. With recovered materials we can get from normal trash could do lots of stuff and create something useful, we need to share the value left in the trash.</p>
+							<p class="col text-white fs-4"><strong>DONKYA</strong> was born out of an interest in restoring and preserving our natural environments. As a company, we are dedicated to constructing products from recycled plastic that add durability and style to our designs.</p>
+							<p class="col text-white fs-4">Through our local recycling solution, we create awareness and additional economic value for communities. Furthermore, part of the revenue is used for renaturation and reforestation.</p>
 						</div>
 					</div>
 				</div>
@@ -18,7 +18,7 @@
 		<main id="page" class="container">
 			<div class="section-wrapper row">
 				<div class="container-fluid py-5">
-					<p class="col text-center fs-4">We know that our story so far, this went from being nomads that gathered some fruits and hunted animals in order to survive. Now, having all the power to shape our enviroment, here lies the problem of pollution that is putting our world in a hurry.</p>
+					<!--p class="col text-center fs-4">We know that our story so far, this went from being nomads that gathered some fruits and hunted animals in order to survive. Now, having all the power to shape our enviroment, here lies the problem of pollution that is putting our world in a hurry.</p-->
 				</div>
 			</div>
 			<div class="section-wrapper">

@@ -48,7 +48,7 @@
 		              </div>
 		              <ul class="footer-list">
 		                <li>Phone: <a href="#">+43 677 64063544</a></li>
-		                <li>Contact: <a href="#">info@donkya.com</a></li>
+		                <li>Contact: <a href="#">mail@donkya.com</a></li>
 		              </ul>
 		            </div>
 		          </div>

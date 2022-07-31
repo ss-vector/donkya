@@ -176,7 +176,7 @@
               </div>
               <h4>Romana Rainer</h4>
               <span>Austria</span>
-              <p>Founder, artist. Political scientist.</p>
+              <!-- p>Founder, artist. Political scientist.</p-->
             </div>
           </div>
           <div class="col-md-4">
@@ -187,7 +187,7 @@
               </div>
               <h4>Omar Mejia</h4>
               <span>Perú</span>
-              <p>Founder, Entrepreneur. Manager and self taught coder. Open source activist.</p>
+              <!--p>Founder, Entrepreneur. Manager and self taught coder. Open source activist.</p-->
             </div>
           </div>
           <div class="col-md-4">
@@ -198,7 +198,7 @@
               </div>
               <h4>Carlos Sanabria</h4>
               <span>Colombia</span>
-              <p>Founder, Permaculture Teacher and strong contributor to reforestation and nature preservation projects.</p>
+              <!--p>Founder, Permaculture Teacher and strong contributor to reforestation and nature preservation projects.</p-->
             </div>
           </div>
         </div>
