@@ -123,7 +123,7 @@
             </div>
             <div class="service-item">
               <h4>Permaculture</h4>
-              <p class="fs-6">Our mision is to encourage local communities to live in armony with nature, not harming local species...</p>
+              <p class="fs-6"><?php __('Our mision is to encourage local communities to live in armony with nature, not harming local species...', 'donkya-text-domain'); ?></p>
             </div>
           </div>
         </div>

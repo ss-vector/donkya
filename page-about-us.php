@@ -26,7 +26,7 @@
 					<div class="col-md-6">
 						<div class="h-100 p-5 text-white bg-green rounded-3">
 							<h2>Mission</h2>
-							<p class="fs-6 text-white">Here at <strong>DONKYA Plastics</strong> strive to protect nature in combination with a sustainable economy. By managing recycled plastics and transforming them into a handmade and innovative product. Our goals are based on solidarity and care for the planet in the face of the growing problem caused by the pollution of different types of plastic.</p>
+							<p class="fs-6 text-white">Here at <strong>DONKYA Plastic</strong> strive to protect nature in combination with a sustainable economy. By managing recycled plastics and transforming them into a handmade and innovative product. Our goals are based on solidarity and care for the planet in the face of the growing problem caused by the pollution of different types of plastic.</p>
 						</div>
 					</div>
 					<div class="about-vision-box col-md-6">
@@ -40,8 +40,9 @@
 			<div class="section-wrapper row">
 				<div class="col-xl-12">
 					<div class="container-fluid mt-5">
-						<h2 class="display-6 fw-bold">The Big Issue of Plastic</h2>
-						<p class="fs-6">The first plastic was produced in the early 1900s. Now, more than 100 years later, it has become one of the biggest global problem of pollution.</p>
+						<h2 class="display-6 fw-bold"><?php _e( 'The Big Issue of Plastic', 'donkya-text-domain' ); ?></h2>
+						<p class="fs-6 col-md-6"><?php _e('The first plastic was produced in the early 1900s. Now, more than 100 years later, it has become one of the biggest global problem of pollution', 'donkya-text-domain'); ?>.</p>
+						<img class="image-responsive col-md-6" src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1659395996/donkya/4_i4xzyw.png">
 						<p class="fs-6">Plastic pollution grew from two million tonnes in 1950 to 348 million tonnes in 2017, making it a global industry valued at <strong>$522.6 billion</strong>, according to the Programme. It is expected to double by 2040.</p>
 						<p class="fs-6">The impacts of plastic production and pollution are a looming catastrophe in the context of the triple planetary crisis of climate change, loss of nature and pollution, the UN agency said.</p>
 						<p class="fs-6">Exposure to plastics harms human health, and can affect fertility, hormonal, metabolic and neurological activity, while open burning of plastics contributes to air pollution.</br>By 2050, greenhouse gas emissions associated with the production, use and disposal of plastics will account for 15% of allowable emissions under the goal of limiting global warming to 1.5°C.</p>

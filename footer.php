@@ -46,6 +46,11 @@
 		              <div class="footer-heading">
 		                <h2>Contact Information</h2>
 		              </div>
+		              <ul class="social-icons p-3">
+		              	<li>
+		              		<a href="https://www.facebook.com/Donkya-plastic-108646218567740/" class="fab fa-facebook" target="_blank"></a>
+		              	</li>
+		              </ul>
 		              <ul class="footer-list">
 		                <li>Phone: <a href="#">+43 677 64063544</a></li>
 		                <li>Contact: <a href="#">mail@donkya.com</a></li>
@@ -54,7 +59,7 @@
 		          </div>
 		          <div class="col-md-12">
 		            <div class="sub-footer">
-		              <p>Copyright &copy; 2021 Donkya Plastic
+		              <p>Copyright &copy; 2022 Donkya Plastic
 						- Designed by <a rel="nofollow" href="https://github.com/ss-vector">ss-Vector</a></p>
 		            </div>
 		          </div>

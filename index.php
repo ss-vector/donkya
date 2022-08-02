@@ -13,15 +13,15 @@
 									<div class="perma-post-list blog-item">
 										<div class="post-header">
 											<div class="posted-on">
-												<?php printf(esc_html__('Publicado el %s', 'copycats'), "<strong>" . get_the_date() . "</strong>"); ?>
+												<?php printf(esc_html__('Publicado el %s', 'donkya_text_domain'), "<strong>" . get_the_date() . "</strong>"); ?>
 											</div>
 											<?php the_title( sprintf( '<a href="%s"><h2 class="blog-entry-title">', esc_url( get_permalink() ) ), '</h2></a>' ); ?>
-											<span><?php printf(esc_html__('Por %s', 'copycats'), "<strong>" . get_the_author() . "</strong>"); ?></span>
+											<span><?php printf(esc_html__('Por %s', 'donkya_text_domain'), "<strong>" . get_the_author() . "</strong>"); ?></span>
 											<span><?php the_category( ' ' ); ?></span>
 										</div>
 										<?php the_excerpt(); ?>
 										<a href="<?php the_permalink() ?>" class="read-more">
-	    									<?php esc_html_e('Ver', 'copycats'); ?>
+	    									<?php esc_html_e('Ver', 'donkya_text_domain'); ?>
 										</a>
 									</div>
 								<?php

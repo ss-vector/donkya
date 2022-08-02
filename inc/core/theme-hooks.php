@@ -64,6 +64,7 @@ add_action( 'widgets_init', 'donkya_theme_sidebar_setup' );
 function donkya_register_functions_after() {
 
 	add_theme_support('title-tag');
+	load_theme_textdomain( 'donkya-text-domain', get_template_directory() . '/languages' );
 
 }
 add_action('after_setup_theme', 'donkya_register_functions_after');
