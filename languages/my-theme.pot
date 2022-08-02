@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Donkya Theme 1.1.9\n"
+"Project-Id-Version: Donkya Theme 1.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/donkya\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-08-02T02:24:47+00:00\n"
+"POT-Creation-Date: 2022-08-02T04:15:18+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: donkyatheme\n"
@@ -30,22 +30,62 @@ msgstr ""
 msgid "About Us"
 msgstr ""
 
+#: footer.php:18
+msgid "Useful Links"
+msgstr ""
+
 #: footer.php:21
 msgid "Our Workshop"
+msgstr ""
+
+#: footer.php:22
+msgid "Recycling Plastic"
+msgstr ""
+
+#: footer.php:23
+msgid "Permaculture"
+msgstr ""
+
+#: footer.php:35
+msgid "Our Community"
+msgstr ""
+
+#: front-page.php:30
+msgid "Read More"
+msgstr ""
+
+#: page-about-us.php:9
+msgid "About Donkya Plastic"
 msgstr ""
 
 #: page-about-us.php:43
 msgid "The Big Issue of Plastic"
 msgstr ""
 
-#: page-about-us.php:50
+#: page-about-us.php:46
+msgid "Global Contamination"
+msgstr ""
+
+#: page-about-us.php:47
+msgid "The first plastic was produced in the early 1900s. Now, more than 100 years later, it has become one of the biggest global problem of pollution"
+msgstr ""
+
+#: page-about-us.php:52
 msgid "Our Oceans"
 msgstr ""
 
-#: page-about-us.php:53
+#: page-about-us.php:55
 msgid "Human Health"
 msgstr ""
 
-#: page-about-us.php:55
+#: page-about-us.php:57
 msgid "Impact of plastic on CO2 emisions"
+msgstr ""
+
+#: page-about-us.php:68
+msgid "The Solution"
+msgstr ""
+
+#: page-about-us.php:77
+msgid "Collaborate"
 msgstr ""

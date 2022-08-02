@@ -6,7 +6,7 @@
 			<div class="section-wrapper row main">
 				<div class="col-xl-12 mt-5">
 					<div class="mt-5">
-						<h2 class="display-4 fw-bold text-center text-white">About Donkya Plastics</h2>
+						<h2 class="display-4 fw-bold text-center text-white"><?php _e('About Donkya Plastic', 'donkyatheme'); ?></h2>
 						<div class="container text-center py-5">
 							<p class="col text-white fs-4"><strong>DONKYA</strong> was born out of an interest in restoring and preserving our natural environments. As a company, we are dedicated to constructing products from recycled plastic that add durability and style to our designs.</p>
 							<p class="col text-white fs-4">Through our local recycling solution, we create awareness and additional economic value for communities. Furthermore, part of the revenue is used for renaturation and reforestation.</p>
@@ -40,10 +40,12 @@
 			<div class="section-wrapper row">
 				<div class="col-xl-12">
 					<div class="container-fluid mt-5">
-						<h2 class="display-6 fw-bold"><?php echo __( 'The Big Issue of Plastic', 'donkyatheme' ); ?></h2>
+						<h2 class="display-6 fw-bold"><?php _e( 'The Big Issue of Plastic', 'donkyatheme' ); ?></h2>
 						<div class="row">
-							<?php echo '<h3 class="fw-bold">' . __( 'Global Contamination', 'donkyatehme' ) . '</h3>'; ?>
-							<p class="fs-6 col-md-6"><?php _e( 'The first plastic was produced in the early 1900s. Now, more than 100 years later, it has become one of the biggest global problem of pollution', 'donkyatehme' ); ?>.</p>
+							<div class="col-md-6">
+								<h3 class="fw-bold"><?php _e( 'Global Contamination', 'donkyatheme' ); ?></h3> 
+								<p class="fs-6"><?php _e( 'The first plastic was produced in the early 1900s. Now, more than 100 years later, it has become one of the biggest global problem of pollution', 'donkyatheme' ); ?>.</p>
+							</div>
 							<div class="col-md-6">
 								<img class="img-fluid" src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1659395996/donkya/4_i4xzyw.png">
 							</div>
@@ -63,7 +65,7 @@
 			<div class="section-wrapper row">
 				<div class="col-xl-12">
 					<div class="container-fluid mt-5">
-						<h2 class="display-6 fw-bold">The Solution</h2>
+						<h2 class="display-6 fw-bold"><?php _e('The Solution', 'donkyatheme'); ?></h2>
 						<p class="fs-6">As a company, we are commited with building products from recycled plastic and other waste products, in order to add durability, usability and style to our designs.</p>
 						<p class="col-md-8 fs-6">Through our community based recycling solution, we create awareness and additional economic value for local communities. Furthermore, part of the revenue is used for renaturation and reforestation.</p>
 						<p class="fs-6">The process goes from collecting the plastic waste to cleaning, shredding and transforming it into new, stylish and more durable products made from recycled plastic. Manual and artesanal processes are used, as well as tech with the use of machines such as “PetBots”, 3D printers, shredders, plate press and injection machines.</p>
@@ -72,7 +74,7 @@
 			</div>
 			<div class="p-5 text-center">
 				<a href="<?php echo get_permalink( 70 ); ?>" class="btn btn-success" role="button">
-					Collaborate
+					<?php _e('Collaborate', 'donkyatheme'); ?>
 				</a>
 			</div>
 		</main>
