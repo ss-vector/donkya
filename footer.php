@@ -43,11 +43,6 @@
 		            <div class="footer-item">
 		              <div class="footer-heading">
 		                <h2>Contact Information</h2>
-		                <p>
-		                <?php $dumpe = get_locale();
-		                		echo $dumpe;
-		                ?>
-		            	</p>
 		              </div>
 		              <ul class="social-icons p-3">
 		              	<li>

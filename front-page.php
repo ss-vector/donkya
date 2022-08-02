@@ -101,7 +101,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="service-card">
-              <img src="<?php echo get_template_directory_uri() . '/assets/images/education_neonbrand.jpg'; ?>" class="img-fluid">
+              <img src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1655601772/donkya/education.jpg" class="img-fluid">
             </div>
             <div class="service-item">
               <h4>Education & Research</h4>
