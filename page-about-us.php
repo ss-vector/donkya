@@ -40,14 +40,22 @@
 			<div class="section-wrapper row">
 				<div class="col-xl-12">
 					<div class="container-fluid mt-5">
-						<h2 class="display-6 fw-bold"><?php _e( 'The Big Issue of Plastic', 'donkya-text-domain' ); ?></h2>
-						<p class="fs-6 col-md-6"><?php _e('The first plastic was produced in the early 1900s. Now, more than 100 years later, it has become one of the biggest global problem of pollution', 'donkya-text-domain'); ?>.</p>
-						<img class="image-responsive col-md-6" src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1659395996/donkya/4_i4xzyw.png">
-						<p class="fs-6">Plastic pollution grew from two million tonnes in 1950 to 348 million tonnes in 2017, making it a global industry valued at <strong>$522.6 billion</strong>, according to the Programme. It is expected to double by 2040.</p>
-						<p class="fs-6">The impacts of plastic production and pollution are a looming catastrophe in the context of the triple planetary crisis of climate change, loss of nature and pollution, the UN agency said.</p>
-						<p class="fs-6">Exposure to plastics harms human health, and can affect fertility, hormonal, metabolic and neurological activity, while open burning of plastics contributes to air pollution.</br>By 2050, greenhouse gas emissions associated with the production, use and disposal of plastics will account for 15% of allowable emissions under the goal of limiting global warming to 1.5°C.</p>
-						<p class="fs-6">More than 800 marine and coastal species are affected by this pollution through ingestion, entanglement and other hazards.</p>
-						<p class="fs-6">Every year, some 11 million tonnes of plastic waste reaches the oceans. This figure could triple by 2040.</p>
+						<h2 class="display-6 fw-bold"><?php echo __( 'The Big Issue of Plastic', 'donkyatheme' ); ?></h2>
+						<div class="row">
+							<?php echo '<h3 class="fw-bold">' . __( 'Global Contamination', 'donkyatehme' ) . '</h3>'; ?>
+							<p class="fs-6 col-md-6"><?php _e( 'The first plastic was produced in the early 1900s. Now, more than 100 years later, it has become one of the biggest global problem of pollution', 'donkyatehme' ); ?>.</p>
+							<div class="col-md-6">
+								<img class="img-fluid" src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1659395996/donkya/4_i4xzyw.png">
+							</div>
+							<h3 class="fw-bold"><?php _e( 'Our Oceans', 'donkyatheme' ); ?></h3>
+							<p class="fs-6">Plastic pollution grew from two million tonnes in 1950 to 348 million tonnes in 2017, making it a global industry valued at <strong>$522.6 billion</strong>, according to the Programme. It is expected to double by 2040.</p>
+							<p class="fs-6">The impacts of plastic production and pollution are a looming catastrophe in the context of the triple planetary crisis of climate change, loss of nature and pollution, the UN agency said.</p>
+							<h3 class="fw-bold"><?php _e('Human Health', 'donkyatheme' ); ?></h3>
+							<p class="fs-6">Exposure to plastics harms human health, and can affect fertility, hormonal, metabolic and neurological activity, while open burning of plastics contributes to air pollution.</br>By 2050, greenhouse gas emissions associated with the production, use and disposal of plastics will account for 15% of allowable emissions under the goal of limiting global warming to 1.5°C.</p>
+							<h3 class="fw-bold"><?php _e('Impact of plastic on CO2 emisions', 'donkyatheme' ); ?></h3>
+							<p class="fs-6">More than 800 marine and coastal species are affected by this pollution through ingestion, entanglement and other hazards.</p>
+							<p class="fs-6">Every year, some 11 million tonnes of plastic waste reaches the oceans. This figure could triple by 2040.</p>
+						</div>
 					</div>
 					
 				</div>

@@ -56,6 +56,13 @@ function donkya_vendor_scripts_setup() {
 }
 add_action( 'wp_enqueue_scripts', 'donkya_vendor_scripts_setup', 20 );
 
+function donkya_register_functions_after() {
+
+	load_theme_textdomain( 'donkyatheme', get_template_directory() . '/languages' );
+
+}
+add_action('after_setup_theme', 'donkya_register_functions_after');
+
 /* Maintenance Mode On
 function wp_maintenance_mode() {
 	if (!current_user_can('edit_themes') || !is_user_logged_in()) {

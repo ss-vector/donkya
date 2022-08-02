@@ -1,4 +1,0 @@
-
-
-msgid "The big issue of plastic"
-msgstr ""

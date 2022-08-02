@@ -6,7 +6,7 @@
 		          <div class="col-md-3 col-sm-6 col-xs-12">
 		            <div class="footer-item">
 		              <div class="footer-heading">
-		                <h2>About Us</h2>
+		                <h2><?php echo __('About Us', 'donkyatheme'); ?></h2>
 		              </div>
 		              <p class="fs-6">Donkya Foundation is an organization of entrepreneurs that aims to build a new way of living sustainable, part of the green movements placed on earth.</p>
 		            </div>
@@ -18,7 +18,7 @@
 		                <h2>Useful Links</h2>
 		              </div>
 		              <ul class="footer-list">
-		                <li><a href="#">Our Workshop</a></li>
+		                <li><a href="#"><?php echo __('Our Workshop', 'donkyatheme'); ?></a></li>
 		                <li><a href="#">Recycling Plastic</a></li>
 		                <li><a href="#">Permaculture</a></li>
 		              </ul>
