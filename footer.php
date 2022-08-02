@@ -46,11 +46,23 @@
 		              </div>
 		              <ul class="social-icons p-3">
 		              	<li>
-		              		<a href="https://www.facebook.com/Donkya-plastic-108646218567740/" class="fab fa-facebook" target="_blank"></a>
+		              		<a href="https://www.facebook.com/Donkya-plastic-108646218567740/" target="_blank">
+		              			<i class="fa-brands fa-facebook fa-xl"></i>
+		              		</a>
+		              	</li>
+		              	<li>
+		              		<a href="https://twitter.com/DonkyaF" target="_blank">
+		              			<i class="fa-brands fa-twitter fa-xl"></i>
+		              		</a>		              		
+		              	</li>
+		              	<li>
+		              		<a href="#" target="_blank">
+		              			<i class="fa-brands fa-youtube fa-xl"></i>
+		              		</a>		              		
 		              	</li>
 		              </ul>
 		              <ul class="footer-list">
-		                <li>Phone: <a href="#">+43 677 64063544</a></li>
+		                <li><?php _e('Phone', 'donkyatheme'); ?>:<a href="#"> +43 677 64063544</a></li>
 		                <li>Contact: <a href="#">mail@donkya.com</a></li>
 		              </ul>
 		            </div>

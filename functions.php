@@ -36,7 +36,7 @@ add_action( 'wp_enqueue_scripts', 'donkya_primary_theme_setup', 5 );
 
 function donkya_vendor_scripts_setup() {
 
-		wp_register_style( 'fontawesome', get_template_directory_uri() . '/assets/css/fontawesome.css', false, '4.3.0', 'all' );
+		wp_register_style( 'fontawesome', get_template_directory_uri() . '/assets/fontawesome/css/all.css', false, '6.1.2', 'all' );
 		wp_register_style( 'owl_carousel', get_template_directory_uri() . '/assets/css/owl.css', false, '2.3.4', 'all'  );
 
 		wp_enqueue_style( 'bootstrap' );

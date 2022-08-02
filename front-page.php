@@ -123,7 +123,7 @@
             </div>
             <div class="service-item">
               <h4>Permaculture</h4>
-              <p class="fs-6"><?php __('Our mision is to encourage local communities to live in armony with nature, not harming local species...', 'donkya-text-domain'); ?></p>
+              <p class="fs-6"><?php _e('Our mision is to encourage local communities to live in armony with nature, not harming local species...', 'donkyatheme'); ?></p>
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <span>Joinning forces</span>
+              <span><?php _e('Joinning forces', 'donkyatheme'); ?></span>
               <h2>The Team</h2>
             </div>
           </div>
