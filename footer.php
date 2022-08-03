@@ -29,12 +29,12 @@
 		          <div class="col-md-3 col-sm-6 col-xs-12">
 		            <div class="footer-item">
 		              <div class="footer-heading">
-		                <h2>More Information</h2>
+		                <h2><?php _e('More Information', 'donkyatheme'); ?></h2>
 		              </div>
 		              <ul class="footer-list">
-		                <li><a href="#"><?php _e('Our Community', 'donkyatheme'); ?></a></li>
-		                <li><a href="#">Documentation</a></li>
-		                <li><a href="#">Latest News</a></li>
+		                <li><a href="#"><?php _e( 'Our Community', 'donkyatheme' ); ?></a></li>
+		                <li><a href="#"><?php _e( 'Documentation', 'donkyatheme' ); ?></a></li>
+		                <li><a href="#"><?php _e( 'Latest News', 'donkyatheme' ); ?></a></li>
 		              </ul>
 		            </div>
 		          </div>
@@ -42,7 +42,7 @@
 		          <div class="col-md-3 col-sm-6 col-xs-12">
 		            <div class="footer-item">
 		              <div class="footer-heading">
-		                <h2>Contact Information</h2>
+		                <h2><?php _e( 'Contact Information', 'donkyatheme' ); ?></h2>
 		              </div>
 		              <ul class="social-icons p-3">
 		              	<li>
@@ -62,8 +62,8 @@
 		              	</li>
 		              </ul>
 		              <ul class="footer-list">
-		                <li><?php _e('Phone', 'donkyatheme'); ?>:<a href="#"> +43 677 64063544</a></li>
-		                <li>Contact: <a href="#">mail@donkya.com</a></li>
+		                <li><?php _e( 'Phone', 'donkyatheme' ); ?>:<a href="#"> +43 677 64063544</a></li>
+		                <li><?php _e( 'Contact', 'donkyatheme' ); ?>: <a href="#">info@donkya.com</a></li>
 		              </ul>
 		            </div>
 		          </div>

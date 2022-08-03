@@ -165,7 +165,7 @@
           <div class="col-md-12">
             <div class="section-heading">
               <span><?php _e('Joinning forces', 'donkyatheme'); ?></span>
-              <h2>The Team</h2>
+              <h2><?php _e( 'The Team', 'donkyatheme' ); ?></h2>
             </div>
           </div>
           <div class="col-md-4">

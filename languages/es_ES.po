@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Donkya Theme 1.1.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/donkya\n"
-"POT-Creation-Date: 2022-08-02T15:14:02+00:00\n"
-"PO-Revision-Date: 2022-08-02 10:15-0500\n"
+"POT-Creation-Date: 2022-08-02T21:44:09+00:00\n"
+"PO-Revision-Date: 2022-08-02 16:46-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_419\n"
@@ -48,17 +48,54 @@ msgstr "Reciclaje de plástico"
 msgid "Permaculture"
 msgstr "Permacultura"
 
+#: footer.php:32
+msgid "More Information"
+msgstr "Más Información"
+
 #: footer.php:35
 msgid "Our Community"
 msgstr "Nuestra Comunidad"
+
+#: footer.php:36
+msgid "Documentation"
+msgstr "Documentación"
+
+#: footer.php:37
+msgid "Latest News"
+msgstr "Últimas Noticias"
+
+#: footer.php:45
+msgid "Contact Information"
+msgstr "Información de Contacto"
 
 #: footer.php:65
 msgid "Phone"
 msgstr "Teléfono"
 
+#: footer.php:66
+msgid "Contact"
+msgstr "Contacto"
+
 #: front-page.php:30
 msgid "Read More"
 msgstr "Conoce más"
+
+#: front-page.php:126
+msgid ""
+"Our mision is to encourage local communities to live in armony with nature, "
+"not harming local species..."
+msgstr ""
+"Nuestra misión es motivar a las comunidades locales a lograr un equilibrio "
+"para vivir en armonía, sin dañar las especies que conviven junto con "
+"nosotros."
+
+#: front-page.php:167
+msgid "Joinning forces"
+msgstr "Uniendo Fuerzas"
+
+#: front-page.php:168
+msgid "The Team"
+msgstr "El Equipo"
 
 #: page-about-us.php:9
 msgid "About Donkya Plastic"
@@ -81,22 +118,57 @@ msgstr ""
 "haber transcurrido más de 100 años, este se ha convertido en uno de los "
 "mayores problemas de contaminación mundial"
 
-#: page-about-us.php:52
+#: page-about-us.php:53
 msgid "Our Oceans"
 msgstr "Nuestros Océanos"
 
+#: page-about-us.php:54
+msgid ""
+"More than 800 sea and coastal species are being affected by plastic "
+"pollution through ingestion and some entangle to death, among other hazards"
+msgstr ""
+"Más de 800 especies marinas y costeras se ven afectadas por la contaminación "
+"del plástico, debido a la ingesta de este; sabiéndose también que algunos "
+"animales se enriendan hasta morir, además de otros peligros"
+
 #: page-about-us.php:55
+msgid ""
+"Every year, some 11 million tonnes of plastic waste reaches the oceans. This "
+"figure could triple by "
+msgstr ""
+"Cada año, alrededor de 11 millones de toneladas de plástico llegan al mar. "
+"Esta situación podría triplicarse para el año "
+
+#: page-about-us.php:60
 msgid "Human Health"
 msgstr "Salud Humana"
 
-#: page-about-us.php:57
+#: page-about-us.php:61
+msgid ""
+"Exposure to plastics harms human health, and can affect fertility, hormonal, "
+"metabolic and neurological activity, while open burning of plastics "
+"contributes to air pollution."
+msgstr ""
+"La exposición a la contaminación por plástico daña considerablemente la "
+"salud humana afectando la fertilidad, actividad hormonal, metabólica y "
+"neurológica; así también su combustión descontrolada afecta directamente a "
+"la calidad del aire."
+
+#: page-about-us.php:61
+msgid ""
+"By 2050, greenhouse gas emissions associated with the production, use and "
+"disposal of plastics will account for 15% of allowable emissions under the "
+"goal of limiting global warming to 1.5°C."
+msgstr ""
+
+#: page-about-us.php:62
 msgid "Impact of plastic on CO2 emisions"
 msgstr "Impacto del plástico en las  Emisiones de CO2"
 
-#: page-about-us.php:68
+#: page-about-us.php:72
 msgid "The Solution"
 msgstr "La solución"
 
-#: page-about-us.php:77
+#: page-about-us.php:81
 msgid "Collaborate"
 msgstr "Colaborar"
