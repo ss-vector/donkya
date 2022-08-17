@@ -95,7 +95,7 @@
           <div class="col-md-12">
             <div class="section-heading">
               <span>Our Intitiatives</span>
-              <h2>What we do?</h2>
+              <h2><?php _e( 'What we do', 'donkyatheme' ); ?>?</h2>
               <p>Some of our key activities are as follows:</p>
             </div>
           </div>
@@ -122,7 +122,7 @@
               <img src="<?php echo get_template_directory_uri() . '/assets/images/permaculture_01.jpg'; ?>" class="img-fluid">
             </div>
             <div class="service-item">
-              <h4>Permaculture</h4>
+              <h4><?php _e( 'Permaculture', 'donkyatheme' ); ?></h4>
               <p class="fs-6"><?php _e('Our mision is to encourage local communities to live in armony with nature, not harming local species...', 'donkyatheme'); ?></p>
             </div>
           </div>
@@ -131,32 +131,7 @@
     </div>
     <!-- Services Ends Here -->
 
-    <!-- Featured Projets Here -->
-    <div class="pricing-section">
-      <div class="background-image-pricing">
-      </div>
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-12 z-index-1">
-            <div class="section-heading">
-              <h2>Featured Projects</h2>
-              <p>You can help our mision by buying some of our merchandising to support us, or make a donation...</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-item">
-              <h4>Tetra pak Pouches</h4>
-               <img src="<?php echo get_template_directory_uri() . '/assets/images/tp-pouch-featured.jpeg' ?>" width="100%" alt="Tetra pack recycled pouch">
-              <p>A easy-to-use pouche made of recycled Tetra Pak material. This is one of the initiatives we've woking on.</p>
-              <div class="dev"></div>
-              <a href="<?php echo get_permalink( 70 ); ?>" class="main-button">Collaborate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Featured Projects Ends Here -->
-
+    <?php # get_template_part( /partials/sections/products ); ?>
 
     <!-- Team Features Starts Here-->
     <div class="features-section">
