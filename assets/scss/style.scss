@@ -1,0 +1,30 @@
+$clr-whatsapp:   #4fce5d;
+$clr-facebook:   #3b5998;
+$clr-youtube:    red;
+$clr-twitter:    #0077b5;
+// import all bootstrap
+
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+
+/* Footer */
+.footer-social-icons .social-icons > ul {
+    flex-direction: row;	}
+    .footer-social-icons .social-icons .fa-youtube:hover {
+      color: $clr-youtube; }
+    .footer-social-icons .social-icons .fa-facebook:hover {
+      color: $clr-facebook; }
+    .footer-social-icons .social-icons .fa-twitter:hover {
+      color: $clr-twitter; }
+    .social-icons {
+      align-items: center;
+      justify-content: center;
+      margin: 1rem; }
+      .social-icons > li {
+        display: inline-block; }
+      .social-icons li + li a {
+        margin-left: 26px; }
+    .address-data {
+      padding-left: 3rem;
+      width: 100%;
+      display: inline-block; }
