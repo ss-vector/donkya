@@ -1,10 +1,7 @@
-$clr-whatsapp:   #4fce5d;
-$clr-facebook:   #3b5998;
-$clr-youtube:    red;
-$clr-twitter:    #0077b5;
+@import '../../../../../../modules/cc template/colors.scss';
 // import all bootstrap
 
-@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import '../../../../../../modules/bootstrap/scss/bootstrap.scss';
 
 
 /* Footer */
