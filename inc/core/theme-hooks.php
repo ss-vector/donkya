@@ -22,7 +22,6 @@ add_theme_support(
 		'sidebars',
 		'sidebar',
 		'footer',
-
 	)
 );
 
@@ -41,6 +40,19 @@ function donkya_register_nav_menus() {
 }
 add_action( 'init', 'donkya_register_nav_menus' );
 
+# logo Donkya Custom Logo Setup
+
+function donkya_custom_logo_setup() {
+
+	$defaults = array(
+		'height' 		=> 100,
+		'width' 		=> 400,
+		'flex-height'	=> true,
+		'flex-width' 	=> true,
+	);
+	add_theme_support( 'custom-logo', $defaults );
+}
+add_action( 'after_setup_theme', 'donkya_custom_logo_setup' );
 
 function donkya_theme_sidebar_setup() {
 

@@ -160,7 +160,7 @@
                 <!-- id: 303 -->
                 <img src="<?php echo wp_get_attachment_url( 317 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
-              <h4>Omar Mejia</h4>
+              <h4>Anyelisa Yesquen</h4>
               <span>Perú</span>
               <!--p>Founder, Entrepreneur. Manager and self taught coder. Open source activist.</p-->
             </div>
