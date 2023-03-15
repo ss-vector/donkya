@@ -109,8 +109,13 @@ span.trusted-section-heading::before {
 	padding-top: 2.5rem;
 }
 
-.featured-logo {
-	width: 290px;
+.custom-logo {
+	height: 110px;
+	width: 124px;
+}
+.featured-logo img {
+	height: 200px;
+	width: 220px;
 }
 
 /* Theme*/
@@ -147,7 +152,8 @@ a, button {
 .id-image {
 	padding: 25px; }
 	.id-image img {
-		height: 20em;
+		height: auto;
+		object-fit: cover;
 	}
 
 article.featured-content {

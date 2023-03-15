@@ -14,19 +14,23 @@
     <!-- Banner Ends Here -->
 
     <!-- About Section Starts -->
+      <?php 
+        $custom_logo_id = get_theme_mod( 'custom_logo' );
+        $custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
+      ?>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="about-section">
               <div class="section-heading">
                 <span>Who we are?</span>
-                <h2>DONKYA PLASTICS</h2>
+                <h2>DONKYA</h2>
               </div>
               <article class="featured-content">
                 <div class="featured-logo">
-                  <img src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/c_crop,h_1345/v1656528494/donkya/donkya_plastics_g0acdx.png" class="img-fluid">
+                  <img src="<?php echo $custom_logo_url; ?>" alt="featured logo">
                 </div>
-                <p class="fs-6 lh-sm">We are an organization focused on helping communities integate a sustainable way of living, changing habits and reducing waste.<br>Through education and research promoting a new ways of living.</p>
+                <p class="fs-6 lh-sm">Somos una asociación enfocada en trabajar con las comunidades para integrar una forma de vida mas sustentable, preservando y restaurando las zonas naturales destruidas por las actividades humanas</p>
                 <a class="alpha-button mt-5" href="<?php echo get_permalink( get_page_by_path( 'about-us' ) ); ?>"><?php echo __('Read More', 'donkyatheme'); ?></a>
               </article>
             </div>
@@ -53,7 +57,7 @@
               <div class="un-objective-12">
                 <embed src="<?php echo get_template_directory_uri() . '\assets\svg\12.svg'; ?>" width="100%" />
                 <div class="descriptive-item ">
-                  <p class="text-left text-light fs-6"><strong>DONKYA's</strong> products and production methods are based on reducing the destructive cycle that is generated in the current plastic production system, providing an alternative by transforming plastic waste into new products.</p>
+                  <p class="text-left text-light fs-6"><strong>DONKYA</strong> busca cuidar y desarrollar responsablemente en cuanto a consumo y producción, aplicando técnicas de permacultura y regeneración sin la destrucción de ecosistemas naturales.</p>
                 </div>
               </div>
             </div>
@@ -61,7 +65,7 @@
               <div class="un-objective-13">
                 <embed src="<?php echo get_template_directory_uri() . '\assets\svg\13.svg'; ?>" width="100%" />
                 <div class="descriptive-item">
-                  <p class="text-left text-light fs-6">Our products are made from recovered plastic, giving a more environmentally friendly option, taking into account that a percentage of the profits will be used to revive and maintain ecosystems that reduce CO2 emissions.</p>
+                  <p class="text-left text-light fs-6">Con nuestras actividades contribuimos a reducir el CO2 de la atmósfera. Mediante la restauración y renaturalización de suelos desolados y contaminados, así como mediante la reforestación, se puede almacenar y absorber más CO2.</p>
                 </div>
               </div>
             </div>
@@ -69,7 +73,7 @@
               <div class="un-objective-15">
                 <embed src="<?php echo get_template_directory_uri() . '\assets\svg\15.svg'; ?>" width="100%" />
                 <div class="descriptive-item">
-                  <p class="text-left text-light fs-6">A percentage of the profits from our products will be used to contribute to and conserve important biodiversity ecosystems.</p>
+                  <p class="text-left text-light fs-6">Al proteger y restaurar ecosistemas de diversos tipos, DONKYA crea y mantiene hábitats para animales y plantas salvajes y contribuye así a su protección y diversidad.</p>
                 </div>
               </div>
             </div>
@@ -79,14 +83,6 @@
     </div>
   </div>
   <!-- /The Impact -->
-
-  <!-- Video Section -->
-  <div class="container pt-5">
-    <div class="responsive-video embed-responsive">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hE0Iix9vpEc" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-  <!-- /Video Section -->
 
 	<!-- Services Starts Here -->
     <div class="services-section">
@@ -105,7 +101,7 @@
             </div>
             <div class="service-item">
               <h4>Education & Research</h4>
-              <p class="fs-6">Education is a key foundation in society development but there are some places on earth that require assitance in order to reach access to new tech and platforms that will empower them.</p>
+              <p class="fs-6">La educación e investigación son piezas fundamentales para la evolución y el cambio consiente en relación de las comunidades y la naturaleza.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -143,7 +139,7 @@
               <h2><?php _e( 'The Team', 'donkyatheme' ); ?></h2>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="feature-item">
               <div class="id-image">
                 <!-- id: 302 -->
@@ -151,29 +147,36 @@
               </div>
               <h4>Romana Rainer</h4>
               <span>Austria</span>
-              <!-- p>Founder, artist. Political scientist.</p-->
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="feature-item">
               <div class="id-image">
                 <!-- id: 303 -->
-                <img src="<?php echo wp_get_attachment_url( 317 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+                <img src="<?php echo wp_get_attachment_url( 402 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Anyelisa Yesquen</h4>
               <span>Perú</span>
-              <!--p>Founder, Entrepreneur. Manager and self taught coder. Open source activist.</p-->
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="feature-item">
               <div class="id-image">
-                <!-- id: 311 -->
+                <!-- id: Carlos -->
                 <img src="<?php echo wp_get_attachment_url( 311 ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
               </div>
               <h4>Carlos Sanabria</h4>
               <span>Colombia</span>
-              <!--p>Founder, Permaculture Teacher and strong contributor to reforestation and nature preservation projects.</p-->
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="feature-item">
+              <div class="id-image">
+                <!-- id: Priscila -->
+                <img src="<?php echo wp_get_attachment_url(  ); ?>" class="m-3 rounded-circle mx-auto d-block" width="100%" alt="">
+              </div>
+              <h4>Priscila Pincay</h4>
+              <span>Ecuador</span>
             </div>
           </div>
         </div>
