@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div class="demo">
-		<h1> Sinergy Seeds</h1>
+		<h1><?php _e('Sinergisiembra','donkyatheme'); ?></h1>
 		<p>Page for our natural seed projects.</p>
 	</div>
 	<!-- Investigate content structure here-->

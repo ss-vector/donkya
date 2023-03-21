@@ -113,9 +113,10 @@ span.trusted-section-heading::before {
 	height: 110px;
 	width: 124px;
 }
-.featured-logo img {
+.featured-logo {
 	height: 200px;
 	width: 220px;
+	object-fit: cover;
 }
 
 /* Theme*/

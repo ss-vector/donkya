@@ -37,7 +37,7 @@
 		        <div class="container-fluid">
 		      		<nav class="navbar navbar-expand-lg">
 
-			        	<div class="featured-logo">
+			        	<div class="header-logo">
 			          		<?php 
 			          			if ( function_exists( 'the_custom_logo' )) {
 			          				the_custom_logo();
