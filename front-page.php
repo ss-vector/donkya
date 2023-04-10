@@ -25,7 +25,7 @@
               <div class="section-heading">
                 <span><?php _e('Quienes somos','donkyatheme'); ?>?</span>
                 <h2>DONKYA</h2>
-                <p class="fs-5">Asociación para la Renaturalización y Conservación de los Ecosistemas.</p>
+                <p class="fs-5"><?php _e( 'Asociación para la Renaturalización y Conservación de los Ecosistemas.','donkyatheme' ); ?></p>
               </div>
               <article class="featured-content pb-3">
                 <div>
@@ -57,7 +57,7 @@
           <article class="featured-content pb-3">
             <img class="featured-logo" src="<?php echo $project_logo_url; ?>">
             <p class="fs-6 lh-sm">El objetivo de la campaña <strong>SINERGISIEMBRA</strong> en colaboración con la asociación <strong>KOKOPELLI</strong> es desarrollar proyectos comunitarios con familias campesinas de Sudamérica a través de la adquisición de semillas, la educación sobre diversos puntos importantes de nuestra visión, como la promoción de la autonomía alimentaria y la motivación para multiplicar sus propias semillas.</p>
-            <a class="alpha-button mt-5" href="#"><?php _e( 'Ver Más','donkyatheme' ); ?></a>
+            <a class="alpha-button mt-5" href="<?php echo get_permalink( get_page_by_path( 'projects' ) ); ?>"><?php _e( 'Ver Más','donkyatheme' ); ?></a>
           </article>
 
         </div>
@@ -70,7 +70,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Impacto Ambiental</h2>
+            <h2><?php _e( 'Impacto Ambiental', 'donkyatheme'); ?></h2>
             <p class="fs-5">Con nuestro compromiso contribuimos a los Objetivos de Desarrollo Sostenible de las Naciones Unidas.</p>
           </div>
         </div>
@@ -115,7 +115,7 @@
             <div class="section-heading">
               <span><?php _e( 'Nuestros Fundamentos','donkyatheme' ); ?></span>
               <h2><?php _e( 'Actividades', 'donkyatheme' ); ?></h2>
-              <p>Algunas de nuestras actividades principales</p>
+              <p><?php _e( 'Algunas de nuestras actividades principales','donkyatheme' ); ?></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -123,7 +123,7 @@
               <img src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1655601772/donkya/education.jpg" class="img-fluid">
             </div>
             <div class="service-item">
-              <h4>Educación</h4>
+              <h4><?php _e( 'Educación','donkyatheme' ); ?></h4>
               <p class="fs-6"><?php _e( 'La educación e investigación son piezas fundamentales para la evolución y el cambio consiente en relación de las comunidades y la naturaleza.'. 'donkyatheme' ); ?></p>
             </div>
           </div>
@@ -132,8 +132,8 @@
               <img src="<?php echo get_template_directory_uri() . '/assets/images/permaculture_01.jpg'; ?>" class="img-fluid">
             </div>
             <div class="service-item">
-              <h4><?php _e( 'Permaculture', 'donkyatheme' ); ?></h4>
-              <p class="fs-6"><?php _e('Our mision is to encourage local communities to live in armony with nature, not harming local species...', 'donkyatheme'); ?></p>
+              <h4><?php _e( 'Permacultura', 'donkyatheme' ); ?></h4>
+              <p class="fs-6"><?php _e('Ser sostenibles con el medio ambiente, implica vivir en armonía con la naturaleza. Es por ello que nostros promovemos un estilo de vida que vaya de acuerdo a ello.', 'donkyatheme'); ?></p>
             </div>
           </div>
         </div>
