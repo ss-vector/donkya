@@ -1,2 +1,2 @@
 # donkya Website
-First template for Donkya friends link: [Donkya](www.donkya.com)
+First Wordpress template for Donkya friends link to page -> [Donkya](www.donkya.com)
