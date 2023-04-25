@@ -1,2 +1,2 @@
 # donkya Website
-First template for Donkya friends(www.donkya.com)
+First template for Donkya friends link: [Donkya](www.donkya.com)
