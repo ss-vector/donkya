@@ -87,7 +87,7 @@ $(window).on('load', function () {
 (function($) {
 jQuery(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    var box = $('.header-text').height();
+    var box = $('.header-logo').height();
     var header = $('header').height();
 
     if (scroll >= box - header) {

@@ -10,7 +10,7 @@ body {
 }
 p {
 	margin-bottom: 0px;
-	font-size: 14px;
+	font-size: 1rem;
 	color: #6a6a6a;
 	line-height: 25px;
 }
@@ -270,12 +270,19 @@ header {
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0.5px;
 	color: var(--perma-blog-navbar-color);
 	transition: all 0.5s;
 	margin-top: 5px;
 }
+
+.home .navbar .navbar-nav a.nav-link,
+.home .navbar a.navbar-brand h2,
+.page-id-119 .navbar .navbar-nav a.nav-link {
+	color: var( --bs-white );
+}
+
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .active>.nav-link,
 .navbar .navbar-nav .nav-link.active,
@@ -1119,6 +1126,10 @@ footer .sub-footer a {
 	}
 	footer .sub-footer {
 		margin-top: 20px;
+	}
+
+	iframe {
+		width: 413px;
 	}
 }
 

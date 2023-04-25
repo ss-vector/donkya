@@ -2,7 +2,7 @@
 /**
  * 
  * @package Donkya
- * @since 1.0.0
+ * @since 1.0.2
 */
 ?>
 <?php get_header(); ?>
@@ -129,7 +129,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="service-card">
-              <img src="<?php echo get_template_directory_uri() . '/assets/images/permaculture_01.jpg'; ?>" class="img-fluid">
+              <a href="<?php echo get_permalink( get_page_by_path( 'permacultura' ) ); ?>"><img src="http://donkya.com/wp-content/uploads/2023/04/portada-permacultura-e1682350606672.png" class="img-fluid"></a>
             </div>
             <div class="service-item">
               <h4><?php _e( 'Permacultura', 'donkyatheme' ); ?></h4>

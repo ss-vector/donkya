@@ -17,7 +17,7 @@
 		</div>
 		<main id="page" class="container">
 			<div class="section-wrapper">
-				<div class="row align-items-md-strech">
+				<div class="row align-items-md-strech mt-5">
 					<div class="col-md-6">
 						<div class="h-100 p-5 text-white bg-green rounded-3">
 							<h2><?php _e( 'Misión', 'donkyatheme' ); ?></h2>
@@ -48,7 +48,7 @@
 								<p class="fs-6"><?php _e( 'Teniendo en cuenta que no solo el extremo comportamiento del cambio climático aporta a esta problemática sino actividades como el uso excesivo de agua en riego agrícola, tala de bosques por madera, monocultivos y extensiones de ganadería también por desmontes de tierras por construcción de viviendas y grandes monopolios.','donkyatheme' ); ?></p>
 							</div>
 							<div class="col-md-4">
-								<img class="img-fluid" src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1659474453/donkya/basura_o9pyia.png">
+								<img class="img-fluid" src="http://donkya.com/wp-content/uploads/2023/04/2.png">
 							</div>
 							<div class="col-md-6">
 								<h3 class="fw-bold"><?php _e( 'Deforestación', 'donkyatheme' ); ?></h3>
@@ -56,7 +56,7 @@
 								<p class="fs-6"><?php _e( 'Dentro de nuestra lógica no existe ningún motivo para justificar la tala indiscriminada de selvas y bosques nativos, actualmente esta práctica se relaciona a la agricultura y la ganadería.  Ya que mediante tala y fuego destruyen sin fines de bosques para continuar con estas actividades al por mayor constantemente destructivas para la tierra la biodiversidad y nuestro ecosistema.', 'donkyatheme' ); ?></p>
 							</div>
 							<div class="col-md-4">
-								<img class="img-fluid" src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1659474453/donkya/pez_najfal.png">
+								<img class="img-fluid" src="http://donkya.com/wp-content/uploads/2023/04/1.png">
 							</div>
 							<div class="col-md-6">
 								<h3 class="fw-bold"><?php _e( 'Calidad de Vida y Alimentación', 'donkyatheme' ); ?></h3>
@@ -64,7 +64,7 @@
 								<p class="fs-6"><?php _e( 'Teniendo en cuenta que la concentración de las industrias que procesan nuestros alimentos actualmente son muy generales y controladas, podemos dar por cierto que muchas de las especies nativas cubriendo toda la gamas de plantas están desapareciendo tanto como su calidad, sin olvidar el uso de agroquímicos, toxinas ambientales y contaminación del aire y el agua.','donkyatheme'); ?></p>
 							</div>
 							<div class="col-md-4">
-								<img class="img-fluid" src="https://res.cloudinary.com/negocios-el-triunfo/image/upload/v1659474453/donkya/coramente_iedlsx.png">
+								<img class="img-fluid" src="http://donkya.com/wp-content/uploads/2023/04/4.png">
 							</div>					
 						</div>
 					</div>
